@@ -2,6 +2,10 @@
 
 本仓库仅用于个人网络实验，通过 [containerlab](https://containerlab.dev/quickstart/) 模拟网络拓扑
 
+> [!warning]
+>
+> 节点名称切记不要命名为 `host*`！否则containerlab无法创建接口对。
+
 # Usage
 
 首先，通过官方脚本安装 `containerlab`
